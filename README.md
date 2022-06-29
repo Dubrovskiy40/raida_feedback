@@ -1,5 +1,7 @@
 # raida_feedback
 
+https://www.figma.com/file/aPRWGTALpvV2YMxuOOfmnS/internship-Survey?node-id=111%3A2
+
 <p>Для установки зависимостей в Venv для Python требуется выполнить: <code>pip install -r requirements.txt</code> </p>
 
 <p>Для единообразия подключения в Django базы даных PostgreSQL, 
