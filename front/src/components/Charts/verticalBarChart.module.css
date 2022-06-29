@@ -1,0 +1,64 @@
+.barCharts {
+    display: flex;
+    align-items: center;
+}
+
+.staticBar {
+    margin-left: 87px;
+}
+
+.staticBar__item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color:  var(--black_pepper);
+    border-bottom: 1px solid rgba(124, 116, 213, 0.4);
+    padding: 4px;
+    width: 304px;
+}
+
+.staticBar__item:before {
+    content: " ";
+    display: inline-block;
+    width: 36px;
+    height: 14px;
+    border-radius: 2px;
+    margin-right: 8px;
+    text-align: right;
+}
+
+.staticBar__item_one:before {
+    background-color:  var(--blue);
+}
+
+.staticBar__item_two:before {
+    background-color: #FAA846;
+}
+
+.staticBar__item_three:before {
+    background-color:  var(--green);
+}
+
+.staticBar__count {
+    float: right;
+}
+
+.pieBar {
+    position: relative;
+    top: -63px;
+    margin-left: auto;
+}
+
+.label {
+    color:  var(--black_pepper);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.0125em;
+    text-align: left;
+    margin-bottom: 24px;
+}

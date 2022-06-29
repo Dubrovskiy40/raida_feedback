@@ -1,0 +1,56 @@
+.survey_thanks {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+    min-height: 255px;
+    max-width: 520px;
+    width: 100%;
+}
+
+.survey_thanks_text {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.0125em;
+    margin-top: 25px;
+    text-align: center;
+    height: 72px;
+    width: 85%;
+}
+
+.svg {
+    height: 71px;
+    max-width: 520px;
+}
+
+.showStatistics {
+    background-color:  var(--lactic);
+    border: 1px solid  var(--dark_gray);
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 #0000003D, 0 0 2px 0 #0000001F;
+    color:  var(--dark_gray);
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.125em;
+    position: absolute;
+    top: 62%;
+    text-align: center;
+    height: 48px;
+    width: 304px;
+}
+
+.showStatistics:hover {
+    border: none;
+    background-color:  var(--green);
+    color: white;
+}

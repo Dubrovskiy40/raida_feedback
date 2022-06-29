@@ -1,0 +1,40 @@
+.input {
+    background-color: var(--lactic);
+    border-radius: 4px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.0125em;
+    text-align: left;
+    padding: 15px 16px;
+    height: 48px;
+    max-width: 196px;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: var(--input_placeholder_grey_color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.0125em;
+    text-align: left;
+}
+
+.input:focus-visible {
+    box-shadow: 0 2px 2px 0 #7C74D53D, 0 0 2px 0 #7C74D540;
+    outline: none;
+}
+
+.input_alert {
+    border: 1px solid  var(--rose);
+}
+
+.alertText {
+    color:  var(--rose);
+    margin-top: 15px;
+}

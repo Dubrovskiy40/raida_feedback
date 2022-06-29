@@ -1,0 +1,27 @@
+.templateInfo {
+    max-width: 520px;
+    text-align: left;
+}
+
+.templateInfo__title {
+    font-family: Roboto,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.0125em;
+    text-align: left;
+    color:  var(--black_pepper);
+    margin-bottom: 8px;
+}
+
+.templateInfo__subtitle {
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.0125em;
+    text-align: left;
+    color:  var(--black_pepper);
+}

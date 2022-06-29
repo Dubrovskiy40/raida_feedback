@@ -1,0 +1,22 @@
+.number {
+    position: absolute;
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.0125em;
+    text-align: center;
+    margin-bottom: 10px;
+    transform: translatey(-80%);
+}
+
+.number_unselected {
+    color: darkgray;
+}
+
+.number_selected {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}

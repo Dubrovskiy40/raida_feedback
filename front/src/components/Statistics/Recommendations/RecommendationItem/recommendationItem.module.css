@@ -1,0 +1,32 @@
+.wrapper {
+    border-bottom: 1px solid #7C74D566;
+    border-radius: 2px;
+    color: var(--black_pepper);
+    display: grid;
+    grid-template-columns: 89% 6% 5%;
+    align-items: center;
+    padding: 0 16px;
+    min-height: 77px;
+    max-width: 1206px;
+    width: 100%;
+}
+
+.wrapper__hidden {
+    background-color: #7C74D566;
+    color: white;
+}
+
+.text {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.0125em;
+    text-align: left;
+}
+
+.button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}

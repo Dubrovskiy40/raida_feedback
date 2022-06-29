@@ -1,0 +1,45 @@
+.surveyLocation {
+    display: flex;
+    flex-direction: column;
+    width: 196px;
+}
+
+.surveyLocation__title {
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.0125em;
+    text-align: left;
+    color:  var(--black_pepper);
+    margin-bottom: 8px;
+}
+
+.surveyLocation__list {
+    display: grid;
+    gap: 4px;
+    grid-template-columns: 30px 30px 30px;
+}
+
+.surveyLocation__item {
+    width: 30px;
+    height:30px;
+    background: #FFFFFF;
+    border: 1px solid  var(--dark_gray);
+    border-radius: 4px;
+}
+
+.surveyLocation__item:hover {
+    cursor: pointer;
+    background: #bbb7f6;
+}
+
+.surveyLocation__item:active {
+    background:  var(--violet);
+}
+
+.surveyLocation__item_active {
+    background:  var(--violet);
+    border:  var(--violet);
+}

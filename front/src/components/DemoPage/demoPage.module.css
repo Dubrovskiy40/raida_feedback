@@ -1,0 +1,19 @@
+.wrapper {
+    position: relative;
+    background-color:  var(--lactic);
+    height: calc(100vh - 70px);
+    width: 100%;
+}
+
+.positioned_container {
+    position: absolute;
+    width: auto;
+}
+
+.positioned_container_static {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}

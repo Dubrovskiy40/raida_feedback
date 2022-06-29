@@ -1,0 +1,63 @@
+.templateBlock_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.templateBlock {
+    width: 304px;
+    height: 112px;
+    border: 1px solid  var(--dark_gray);
+    border-radius: 4px;
+    padding: 24px 40px 24px 24px;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+.templateBlock:hover {
+    background:  var(--lactic);
+    cursor: pointer;
+}
+
+.templateBlock button svg:hover {
+    background:  var(--lactic);
+    cursor: pointer;
+}
+
+.templateBlock:not(:last-child) {
+    margin-right: 20px;
+}
+
+.templateBlock__title {
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+    text-align: left;
+    color:  var(--black_pepper);
+}
+
+.templateBlock__subtitle {
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.047em;
+    text-align: left;
+    color:  var(--dark_gray);
+}
+
+.templateBlock_active {
+    border: 2px solid  var(--violet);
+    background:  var(--lactic);
+}
+
+.templateBlock__empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

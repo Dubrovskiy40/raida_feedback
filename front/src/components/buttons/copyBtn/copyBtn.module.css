@@ -1,0 +1,36 @@
+.copyBtn {
+    color:  var(--lactic);
+    cursor: pointer;
+    border-radius: 4px;
+    background:  var(--violet);
+    box-shadow: 0 2px 2px 0 #0000003D, 0 0 2px 0 #0000001F;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.0125em;
+    text-align: center;
+    height: 48px;
+    width: 304px;
+}
+
+.copyBtn_disabled {
+    background:  var(--dark_gray);
+}
+
+.copyBtn:active {
+    background:  var(--dark_purple);
+}
+
+.copyBtn:hover {
+    background:  var(--violet);
+}
+
+.copyBtn_copied {
+    background:  var(--dark_purple);
+}
+
+.copyBtn.copyBtn_copied:hover{
+    background:  var(--dark_purple);
+}

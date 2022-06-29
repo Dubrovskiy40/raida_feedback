@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+   back:
+       build: ./back
+       ports:
+           - 8000:8000
+       container_name: back
+       volumes:
+           - static:/app/static
+       env_file:
+           - ../../../../../.env.stages
+       restart: always
+
+   front:
+       build: ./front
+       ports:
+           - 3000:3000
+       container_name: front
+       restart: always
+volumes:
+    static:

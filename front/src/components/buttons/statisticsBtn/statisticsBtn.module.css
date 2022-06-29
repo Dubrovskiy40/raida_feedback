@@ -1,0 +1,29 @@
+.statisticsBtn {
+    background:  var(--lactic);
+    border: 1px solid  var(--green);
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 #0000003D, 0 0 2px 0 #0000001F;
+    color:  var(--green);
+    display: block;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    cursor: pointer;
+    height: 48px;
+    width: 304px;
+}
+
+.statisticsBtn_disabled {
+    color:  var(--dark_gray);
+    background:  var(--lactic);
+    border: 1px solid  var(--dark_gray);
+}
+
+.statisticsBtn:active {
+    color:  var(--lactic);
+    background:  var(--green);
+}

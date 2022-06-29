@@ -1,0 +1,35 @@
+.socialNetwork {
+}
+
+.socialNetwork__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.socialNetwork__item:not(:last-child) {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.socialNetwork__link {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    float: left;
+}
+
+.email__item .socialNetwork__link {
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+.socialNetwork__link svg {
+    cursor: pointer;
+    fill: #000000;
+    fill-opacity: 0.4;
+}
+
+.socialNetwork__link svg:hover {
+    fill:  var(--violet);
+    fill-opacity: 1;
+}

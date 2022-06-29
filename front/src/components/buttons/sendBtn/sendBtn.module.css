@@ -1,0 +1,24 @@
+.sendBtn {
+    height: 48px;
+    width: 196px;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.125em;
+    text-align: center;
+    border-radius: 4px;
+    background:  var(--violet);
+    padding: 10px 25px;
+    cursor: pointer;
+    color:  var(--lactic);
+}
+
+.sendBtn_disabled {
+    background:  var(--dark_gray);
+}
+
+.sendBtn:active {
+    background:  var(--dark_purple);
+}

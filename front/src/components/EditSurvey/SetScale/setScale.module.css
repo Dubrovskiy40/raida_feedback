@@ -1,0 +1,56 @@
+.setScale__container {
+    margin-top: 20px;
+    min-height: 60px;
+    max-width: 300px;
+}
+
+.setScale__header {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.0125em;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.setScale__control {
+    display: flex;
+    gap: 20px;
+}
+
+.setScale__label {
+    display: flex;
+    align-items: center;
+}
+
+.fake_radio_btn {
+    background: #FFFFFF;
+    border: 1px solid  var(--dark_gray);
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.fake_radio_btn:hover {
+    background: #bbb7f6;
+    cursor: pointer;
+}
+
+.fake_radio_btn:active {
+    background:  var(--violet);
+}
+
+.fake_radio_btn_active {
+    background:  var(--violet);
+    border:  var(--violet);
+}
+
+.hidden_radio_btn {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}

@@ -1,0 +1,89 @@
+.window_close_layer {
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.fakeSelect {
+    background-color:  var(--lactic);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.0125em;
+    position: relative;
+    padding-right: 50px;
+    margin: 0;
+    text-align: left;
+    padding-left: 16px;
+    min-height: 48px;
+    width: auto;
+    max-width: 332px;
+    z-index: 2;
+}
+
+.fakeSelect::after {
+    content: "";
+    background-color: black;
+    display: block;
+    position: absolute;
+    top: 44%;
+    right: 15px;
+    height: 0.5em;
+    width: 0.8em;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+    -webkit-clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+
+.dropDownList {
+    display: none;
+    position: absolute;
+    height: 250px;
+    overflow-y: scroll;
+    top: 48px;
+    left: 0;
+}
+
+.dropDownList::-webkit-scrollbar {
+    margin-left: 17px;
+    width: 2px;
+}
+
+.dropDownList::-webkit-scrollbar-track {
+    border-radius: 2px;
+    box-shadow: inset 0 0 6px #7C74D566;
+}
+
+.dropDownList::-webkit-scrollbar-thumb {
+    background-color:  var(--violet);
+    border-radius: 2px;
+    outline: 1px solid slategrey;
+}
+
+.dropDownList__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  var(--lactic);
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.0125em;
+    height: 48px;
+    width: 332px;
+}
+
+.dropDownList_open {
+    display: block;
+}

@@ -1,0 +1,65 @@
+.wrapper {
+
+}
+
+.text {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.violet_text {
+    color: var(--violet);
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: center;
+}
+
+.indicator {
+    background-color: white;
+    box-shadow: 0 2px 2px 0 #0000003D, 0 0 2px 0 #0000001F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 184px;
+    width: 290px;
+}
+
+.percent {
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.judgment {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: center;
+}
+
+.low {
+    color: var(--rose);
+}
+
+.normal {
+    color: var(--orange);
+}
+
+.high {
+    color: var(--green);
+}

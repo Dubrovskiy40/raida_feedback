@@ -1,0 +1,30 @@
+.btn404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  var(--lactic);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 4px;
+    padding: 16px 0;
+    width: 304px;
+}
+
+.btn404:hover {
+    cursor: pointer;
+}
+
+.btn404:not(:last-child) {
+    margin-right: 20px;
+}
+
+.toHome {
+    background:  var(--violet);
+}
+
+.contact {
+    background:  var(--black_pepper);
+    border: 1px solid  var(--lactic);
+}

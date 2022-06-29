@@ -1,0 +1,44 @@
+.text {
+    color: #f0f0f0;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.0125em;
+    text-align: center;
+}
+
+.pageButton {
+    cursor: pointer;
+}
+
+.statusBar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.statusBarRail {
+    position: absolute;
+    background-color: #CBC7EE;
+    border-radius: 2px;
+    height: 2px;
+    width: 50px;
+}
+
+.statusBarTrack {
+    justify-self: flex-start;
+    position: absolute;
+    background:  var(--violet);
+    border-radius: 2px;
+    height: 2px;
+    width: 25px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.statusBarTrack__full {
+    transform: translateX(0);
+    width: 50px;
+}

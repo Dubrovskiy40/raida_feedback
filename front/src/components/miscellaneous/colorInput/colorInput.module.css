@@ -1,0 +1,85 @@
+.colorSelectContainer {
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+    position: relative;
+}
+
+.colorTitle {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.0125em;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.colorPalette {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 #0000003D,0 0 2px 0 #0000001F;
+    display: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    padding: 16px 13px 24px;
+    position: absolute;
+    min-height: 108px;
+    width: 176px;
+}
+
+.colorPalette_open {
+    display: flex;
+    z-index: 5;
+}
+
+.input_color {
+    background: none;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 #0000003D,0 0 2px 0 #0000001F;
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+    width: 30px;
+}
+
+.input_color__hide {
+    height: 0;
+    width: 0;
+}
+
+.input_color::-webkit-color-swatch {
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 #0000003D,0 0 2px 0 #0000001F;
+}
+
+.input_color_label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid  var(--input_placeholder_grey_color);
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+}
+
+.colorBrick {
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.colorBrick_selected {
+    border: 1px solid  var(--lactic);
+    box-shadow: 0 2px 2px 0 #0000003D, 0 0 2px 0 #0000001F;
+}
+
+.colorBrick_outlined {
+    outline: 1px solid gray;
+}

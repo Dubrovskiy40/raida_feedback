@@ -1,0 +1,38 @@
+.createBtn {
+    display: block;
+    background:  var(--green);
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 #0000003D, 0 0 2px 0 #0000001F;
+    color:  var(--lactic);
+    cursor: pointer;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0.09em;
+    text-align: center;
+    height: 48px;
+    width: 304px;
+}
+
+.createBtn_disabled {
+    background:  var(--dark_gray);
+}
+
+.createBtn_disabled.createBtn:active {
+    background:  var(--dark_gray);
+}
+
+.createBtn:active {
+    background: #11A767;
+}
+
+.button_wrap {
+    position: relative;
+}
+
+.alert_wrap {
+    position: absolute;
+    bottom: -25px;
+}

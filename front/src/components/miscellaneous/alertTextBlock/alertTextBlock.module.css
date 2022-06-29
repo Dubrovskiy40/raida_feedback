@@ -1,0 +1,9 @@
+.alert_text_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.alert_text {
+    color:  var(--rose);
+}

@@ -1,0 +1,41 @@
+.close:before {
+    content: url('../../assets/images/modalWindow/close.svg');
+    position: absolute;
+    top: 19px;
+    left: 764px;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.label {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.0125em;
+    text-align: left;
+    margin-bottom: 36px;
+}
+
+.url_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social_container {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.social_container ul {
+    justify-content: center;
+}
+
+.url_container button {
+    margin: 0 auto;
+}

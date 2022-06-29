@@ -1,0 +1,147 @@
+.bottom_container {
+    background-color: var(--lactic);
+    padding: 35px clamp(10px, 6%, 82px) 64px;
+}
+
+.bottom_container__top {
+    position: relative;
+    display: flex;
+}
+
+.header {
+    color: var(--black_pepper);
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-left: 5px;
+    margin-right: 5px;
+    fill: var(--violet);
+    fill-opacity: 0.4;
+}
+
+.info:hover {
+    fill: #7879F1;
+    fill-opacity: 1;
+}
+
+.text {
+    display: none;
+    background:  var(--violet);
+    border-radius: 2px 4px 4px 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.0125em;
+    color:  var(--lactic);
+    padding: 24px;
+    max-width: 676px;
+    z-index: 2;
+}
+
+.showText {
+    position: absolute;
+    top: 0;
+    left: 222px;
+    display: block;
+}
+
+.periodSelectWrapper {
+    margin-left: 108px;
+    width: 100%;
+}
+
+.result_text {
+    color:  var(--dark_gray);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.049em;
+    text-align: left;
+    margin-bottom: 34px;
+    width: 39em;
+}
+
+.respondent_text {
+    margin-bottom: 8px;
+}
+
+.label {
+    color:  var(--black_pepper);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.0125em;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.label:last-of-type{
+    margin-bottom: 24px;
+}
+
+.statistics_container {
+    display: flex;
+    width: 100%;
+}
+
+.number_of_respondents {
+    margin-right: 128px;
+    width: 196px;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--violet);
+    border: 1px solid  var(--dark_gray)66;
+    border-radius: 4px;
+    font-family: Roboto,sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    height: 99px;
+    width: 196px;
+}
+
+.result {
+    margin-bottom: 40px;
+    max-width: 520px;
+}
+
+.result_text {
+    margin-bottom: 7px;
+}
+
+.result_visualisation_block {
+
+}
+
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    max-width: 264px;
+    width: 100%;
+}
+
+.recommendationBlock {
+    margin-top: 44px;
+}
+

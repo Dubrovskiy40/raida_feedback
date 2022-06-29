@@ -1,0 +1,25 @@
+.downloadBtn {
+    background:  var(--green);
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 #0000003D, 0 0 2px 0 #0000001F;
+    color:  var(--lactic);
+    cursor: pointer;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-align: center;
+    padding: 10px 8px;
+    height: 48px;
+    width: 196px;
+}
+
+.downloadBtn_disabled {
+    background:  var(--dark_gray);
+}
+
+.downloadBtn:active {
+    background: #11A767;
+}
